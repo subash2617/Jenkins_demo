@@ -1,0 +1,83 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To Validate Adactin Login Page",
+        "description": "",
+        "id": "to-validate-adactin-website;to-validate-adactin-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1315900,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "User launch the browser and navigate to adactin login page",
+            "match": {
+              "location": "AdactinWebPageSteps.user_launch_the_browser_and_navigate_to_adactin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20400,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User enters the username and password in adacting page",
+            "match": {
+              "location": "AdactinWebPageSteps.user_enters_the_username_and_password_in_adacting_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8700,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User clicks the login button in adacting page",
+            "match": {
+              "location": "AdactinWebPageSteps.user_clicks_the_login_button_in_adacting_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8500,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User navigated to the adacting home page",
+            "match": {
+              "location": "AdactinWebPageSteps.user_navigated_to_the_adacting_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8300,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Close the Browser",
+            "match": {
+              "location": "AdactinWebPageSteps.close_the_Browser()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "To Validate Adactin website",
+    "description": "",
+    "id": "to-validate-adactin-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/Adactinsite.feature",
+    "tags": []
+  }
+]
